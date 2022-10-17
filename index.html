@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<title>Personal Portfolio</title>
+</head>
+<body>
+	<div class="page-loader">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	<div class="bg-circles">
+		<div class="circle-1"></div>
+		<div class="circle-2"></div>
+		<div class="circle-3"></div>
+		<div class="circle-4"></div>
+	</div>
+
+	<div class="overlay"></div>
+	
+	<div class="main hidden">
+
+		<header class="header">
+			<div class="container">
+				<div class="row flex-end">
+					<button type="button" class="nav-toggle">
+						<span></span>
+					</button>
+					<div class="nav">
+						<div class="nav-inner">
+							<ul>
+								<li><a href="#home" class="nav-item link-item">HOME</a></li>
+								<li><a href="#about" class="nav-item link-item">ABOUT</a></li>
+								<li><a href="#portfolio" class="nav-item link-item">PORTFOLIO</a></li>
+								<li><a href="#contact" class="nav-item link-item">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="home-section align-items-center" id="home">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="home-text">
+						<p>I'm</p>
+						<h1>Huzaifa Ali</h1>
+						<h2>Full Stack Developer</h2>
+						<a class="btn link-item" href="#about">more about me</a>
+						<a class="btn link-item" href="#portfolio">portfolio</a>
+					</div>
+					<div class="home-img">
+						<div class="img-box">
+							<img src="img/profile.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-section sec-padding" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h2>about me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="about-img">
+						<div class="img-box">
+							<img src="img/profile.jpg">
+						</div>
+					</div>
+					<div class="about-text">
+						<p>This is Huzaifa Ali, a FullStack Developer having experience of designing, developing and deploying web application.</p>
+						<h3>Skills</h3>
+						<div class="skills">
+							<div class="skill-items">HMTL5</div>
+							<div class="skill-items">CSS3</div>
+							<div class="skill-items">JAVASCRIPT</div>
+							<div class="skill-items">REACT JS</div>
+							<div class="skill-items">NEXT JS</div>
+							<div class="skill-items">BOOTSTRAP</div>
+							<div class="skill-items">ILLUSTRATOR</div>
+							<div class="skill-items">PHOTOSHOP</div>
+							<div class="skill-items">PHP</div>
+							<div class="skill-items">AJAX</div>
+							<div class="skill-items">MYSQL</div>
+							<div class="skill-items">FIREBASE</div>
+							<div class="skill-items">JAVA</div>
+							<div class="skill-items">SQL Server</div>
+						</div>
+
+						<div class="about-tabs">
+							<button type="button" class="tab-items active" data-target="#education">Education</button>
+							<button type="button" class="tab-items" data-target="#certifications">Certification</button>
+							<button type="button" class="tab-items" data-target="#experience">Experience</button>
+						</div>
+
+						<div class="tab-content active" id="education">
+							<div class="timeline">
+								<div class="timeline-item">
+									<span class="date">2018 - 2020</span>
+									<h4>Intermediate - <span>FG Degree Collage</span></h4>
+									<p>Pre-Engineering | Grade B</p>
+								</div>
+								<div class="timeline-item">
+									<span class="date">2016 - 2018</span>
+									<h4>Matriculation - <span>Maryam High School</span></h4>
+									<p>General Science | Grade A</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-content" id="certifications">
+							<div class="timeline">
+								<div class="timeline-item">
+									<span class="date">2021</span>
+									<h4>Certification in Web Development and Mobile Application Development - <span>IBA</span></h4>
+									<p>A program sponsered by NAVTTC. In this certification program an individual is able to create a full stack website. A commerical website was created at the end of the course which has different functionilities.</p>
+								</div>
+								<div class="timeline-item">
+									<span class="date">2021</span>
+									<h4>Certification in IT (Web Development) - <span>IBA</span></h4>
+									<p>A program sponsered by GIZ and Sindh Technical Board. In this certification program an individual is able to create a full stack website.</p>
+								</div>
+								<div class="timeline-item">
+									<span class="date">2020 - 2021</span>
+									<h4>Certification in Communication Design - <span>Arena Multimedia</span></h4>
+									<p>CCD program is an advanced course in which individual is able to work on different softwares like illustrator and photoshop.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-content" id="experience">
+							<div class="timeline">
+								<div class="timeline-item">
+									<span class="date">2021 - 2022</span>
+									<h4>Graphic Designer - <span>Kodersgeek</span></h4>
+									<p>Worked as a GD, dealing with different projects of their main clients. Creating posts and banner of different website and animations for Facebook and instagram pages.</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="#" class="btn">Download Cv</a>
+						<a href="#contact" class="btn link-item">Contact me</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio-section sec-padding" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h2>Recent Work</h2>
+					</div>
+				</div>
+				<div class="row">
+				    <div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/whatsapp.png">
+						</div>
+						<h3 class="portfolio-item-title">Whatsapp 2.0 Clone</h3>
+
+						<button type="button" class="btn view-project-btn">View Project</button>
+
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p></p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>October 2022</span></li>
+									<li>Technologies - <span>Next JS, Firebase, Styled Component, React JS, and Vercel.</span></li>
+									<li>Role - <span>Full Stack</span></li>
+									<li>View Online - <span><a href="https://whatsapp-2-clone.vercel.app/" target="_blank">whatsapp-2-clone.vercel.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/instagram-2.png">
+						</div>
+						<h3 class="portfolio-item-title">Instagram 2.0 Clone</h3>
+
+						<button type="button" class="btn view-project-btn">View Project</button>
+
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p></p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>September 2022</span></li>
+									<li>Technologies - <span>Next JS, Firebase, TailwindCSS, React JS, and Vercel.</span></li>
+									<li>Role - <span>Full Stack</span></li>
+									<li>View Online - <span><a href="https://instagram-2-clone-five.vercel.app/" target="_blank">instagram-2-clone-five.vercel.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/hulu.png">
+						</div>
+						<h3 class="portfolio-item-title">Hulu Clone</h3>
+
+						<button type="button" class="btn view-project-btn">View Project</button>
+
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p></p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>September 2022</span></li>
+									<li>Technologies - <span>Next JS, TailwindCSS, TMDB API, and Vercel.</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://hulu-2-clone-silk.vercel.app/" target="_blank">hulu-2-clone-silk.vercel.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/linkedin.png">
+						</div>
+						<h3 class="portfolio-item-title">Linkedin Clone</h3>
+
+						<button type="button" class="btn view-project-btn">View Project</button>
+
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A web app where you can post and add a video on one click, the web application is designed with the help of React JS and for deployment purpose firebase is used. For user authentication firebase google authenticator is used.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Augest 2022</span></li>
+									<li>Technologies - <span>React JS, Redux and Styled components</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://linkedin-clone-77361.web.app/" target="_blank">linkedin-clone-77361.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/onlinenaai.png">
+						</div>
+						<h3 class="portfolio-item-title">online Naai</h3>
+
+						<button type="button" class="btn view-project-btn">View Project</button>
+
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A website where you can create your barber shop and deal with the clients and a simple user can also create his/her account to get the services from the registered shops. A shop can add the employees, their regular shop timimg, their services and can create their shop gallery by adding the pictures. A user can take the services from the desired shops/saloons on their desired time and the website is secured with different authentications.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Sep-Dec 2021</span></li>
+									<li>Technologies - <span>HTML, CSS, JS, BOOTSTRAP, Ajax, PHP and MySQL</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://onlinenaai.com/" target="_blank">onlinenaai.com</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/disney+.png">
+						</div>
+						<h3 class="portfolio-item-title">Disney+ Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A good looking web application with functionility of login with google Api, and React content Api for user's logged in state and firebase for deployment and storing movies information. Styling of front-end with styled-components and react slider for sliding images in banner.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Augest 2022</span></li>
+									<li>Technologies - <span>React Js, React Content API, Material-UI, and Firebase</span></li>
+									<li>Role - <span>Frontend</span></li>
+									<li>View Online - <span><a href="https://disneyplus-clone-ba7d4.web.app" target="_blank">disneyplus-clone-ba7d4.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/airbnb.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Airbnb Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A clean clone of Airbnb website</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>20 Nov 2021</span></li>
+									<li>Technologies - <span>React JS and Firebase</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://airbnb-clone-96e5b.web.app/" target="_blank">airbnb-clone-96e5b.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/spotify.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Spotify Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>Material UI for icons,and firebase for deployment and spotify API for User authentication with Spotify application, can control and play the songs using this web app in any other connecting device which has spotify account.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Augest 2022</span></li>
+									<li>Technologies - <span>React JS, Spotify API and Firebase</span></li>
+									<li>Role - <span>FullStack</span></li>
+									<li>View Online - <span><a href="https://spotify-clone-27fdf.web.app/" target="_blank">spotify-clone-27fdf.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/instagram.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Instagram Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A very simple project with user authentication of firebase and functionility of posting images with captions and commenting on that posts. Material-UI is used, and firebase for storing posts with their respective comments.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>June 2022</span></li>
+									<li>Technologies - <span>React JS and Firebase</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://instagram-clone-react-d1344.web.app/" target="_blank">instagram-clone-react-d1344.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/fb.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Facebook Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>June 2022</span></li>
+									<li>Technologies - <span>React JS, Redux and Firebase</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://facebook-clone-6a171.web.app/" target="_blank">facebook-clone-6a171.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/netflix.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Netflix Clone</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>Netflix front-end Cloning using react and TMDB Api for fetching movies information and their respective trailer. Google authentication with firebase is also used in it. Having banner with a movie description and movie poster, after refreshing every time the banner movie and description changes. And in Netflix Originals, click on a poster to watch it's trailer in same website using react-youtube dependency.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Augest 2022</span></li>
+									<li>Technologies - <span>React JS, Firebase, and TMDB API</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://netflix-clone-34e7a.web.app/" target="_blank">netflix-clone-34e7a.web.app</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/weather-app.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Weather Application</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p>A weather Application which provides the current weather of a searched city with the help of weather Api.</p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Augest 2022</span></li>
+									<li>Technologies - <span>HTML, CSS and Vanilla JavaScript</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://weather-app.onlinenaai.com/" target="_blank">weather-app.onlinenaai.com</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/music-player.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Music Player Web App</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p></p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Sep 2021</span></li>
+									<li>Technologies - <span>HTML, CSS and Vanilla JavaScript</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://music-player.onlinenaai.com/" target="_blank">music-player.onlinenaai.com</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item">
+						<div class="portfolio-item-thumbnail">
+							<img src="img/portfolio/currency-converter.png">
+						</div>
+
+						<h3 class="portfolio-item-title">Currency Converter JS Project</h3>
+						<button type="button" class="btn view-project-btn">View Project</button>
+						<div class="portfolio-item-details">
+							<div class="description">
+								<p></p>
+							</div>
+							<div class="general-info">
+								<ul>
+									<li>Created - <span>Sep 2021</span></li>
+									<li>Technologies - <span>HTML, CSS, Vanilla JavaScript and Currency Converter API</span></li>
+									<li>Role - <span>Front-End</span></li>
+									<li>View Online - <span><a href="https://currency-converter.onlinenaai.com/" target="_blank">currency-converter.onlinenaai.com</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-section sec-padding" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h2>Contact me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="contact-form">
+							<form>
+								<div class="row">
+									<div class="input-group">
+										<input type="text" name="name" placeholder="Name" class="input-control" autocomplete="off">
+									</div>
+									<div class="input-group">
+										<input type="text" name="email" placeholder="Email" class="input-control" autocomplete="off">
+									</div>
+									<div class="input-group">
+										<input type="text" name="subject" placeholder="Subject" class="input-control">
+									</div>
+									<div class="input-group">
+										<textarea class="input-control" placeholder="Message" name="message"></textarea>
+									</div>
+									<div class="submit-btn">
+										<button type="submit" class="btn">Send Message</button>
+									</div>
+								</div>
+							</form>
+					</div>
+					<div class="contact-info">
+						<div class="contact-info-item">
+							<h3>Email</h3>
+							<p>huzaifali795@gmail.com</p>
+						</div>
+						<div class="contact-info-item">
+							<h3>Number</h3>
+							<p>0310-2040835</p>
+						</div>
+						<div class="contact-info-item">
+							<h3>Follow me</h3>
+							<div class="social-links">
+								<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+								<a href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div class="portfolio-popup">
+		<div class="pp-inner">
+			<div class="pp-content">
+				<div class="pp-header">
+					<button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+					<div class="pp-thumbnail">
+						<img src="#">
+					</div>
+					<h3></h3>
+				</div>
+				<div class="pp-body">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
